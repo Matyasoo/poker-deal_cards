@@ -1,5 +1,6 @@
-from random import random, randrange
 def rozdej():
+    #This function asks how many players is at the table and based on that deals cards to them and the dealer
+    from random import random, randrange
     def nahodny_balicek():
         #makes and shuffles the card deck
         import random
